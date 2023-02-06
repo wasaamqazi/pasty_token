@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  min-height: 100vh;
+}
+
+button {
+  background: #F88383;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  display: flex;
+ cursor: pointer;
+  padding: 10px 10px;
+  position: relative;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+body{
+  background:  linear-gradient(180deg,rgba(253,72,72,.7),hsla(0,0%,85%,0)),url(../public/assets/images/bg.png
+  );
 }

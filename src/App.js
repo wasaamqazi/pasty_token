@@ -94,6 +94,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="header">
+        <img className="logo" src="../assets/images/logo.png" />
+      </div>
       {WalletAddress || WalletAddress !== "" ? (
         <button>{WalletAddress}</button>
       ) : (
